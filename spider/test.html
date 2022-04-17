@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="apple-itunes-app" content="app-id=736536022, app-argument=bilibili://?av=10933953">
+    <meta data-n-head="true" name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <meta name="theme-color" content="#de698c">
+    <meta name="description" content="哔哩哔哩专栏是一个面向全体bilibili用户的图文内容。为了给大家提供图文创作与分享的空间，感受将文字分享于他人的喜悦。为了给UP主更多样化的内容呈现形式，让bilibili用户体验写作与阅读的快感。欢迎各位的加入～">
+    <meta name="keywords" content="绝地求生,宝石之国,病名为爱,fate,凹凸世界,干物妹!小埋,文章区,动画推荐,深度解析,游戏,科普,杂谈,专栏,ACGN,轻小说">
+    <meta http="Cache-Control" content="no-transform">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="applicable-device" content="mobile">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <link rel="apple-touch-icon-precomposed" href="//static.hdslb.com/mobile/img/512.png">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="//www.bilibili.com/favicon.ico">
+    <link rel="apple-touch-icon" href="//www.bilibili.com/favicon.ico">
+    <meta name="spm_prefix" content="333.14">
+    <link data-n-head="true" rel="icon" type="image/x-icon" href="//www.bilibili.com/favicon.ico">
+    <link data-n-head="true" rel="apple-touch-icon-precomposed" type="image/x-icon" href="http://static.hdslb.com/mobile/img/512.png">
+    <title>专栏-哔哩哔哩 (゜-゜)つロ 干杯~-bilibili</title>
+    <!--我 22 打钱-->
+    <script>
+      function getIEVersion() {
+        var rv = 99;
+        if (navigator.appName == "Microsoft Internet Explorer") {
+          var ua = navigator.userAgent;
+          var re = new RegExp("MSIE ([0-9]{1,}[.0-9]{0,})");
+          if (re.exec(ua) != null) {
+            rv = parseFloat(RegExp.$1)
+          }
+        }
+        return rv
+      }
+      // 支持到IE11
+      if (getIEVersion() < 11 || navigator.userAgent.indexOf('rv:11') > 0) {
+        window.location.href = "https://www.bilibili.com/blackboard/activity-I7btnS22Z.html"
+      }
+      (function(){
+        var webp = (function(){
+          try{
+            return (document.createElement('canvas').toDataURL('image/webp').indexOf('data:image/webp') === 0);
+          }catch(err) {
+            return false;
+          }
+        })()
+        var DR = window.devicePixelRatio||1
+
+        function formatImg(url,w,h) {
+          url = trimHttp(url)
+          w = Math.abs(parseInt(w))
+          h = Math.abs(parseInt(h))
+          if (w > 4096 || h > 4096) {return url}
+          if(!url) return
+          var suffix = url.match(/(.*\.(jpg|jpeg|gif|png))(\?.*)?/)
+          if(!suffix) return
+          //路径是否包含/bfs/
+          var isBfs = url.indexOf('/bfs/') != -1 ? true : false
+          //是否是GIF图片
+          if(suffix[2] === 'gif' || !isBfs){
+            return url
+          }
+          //裁剪规则
+          var cut = (w && h) ? '@' + w + 'w_' + h + 'h' : '@'
+          //图片后参数 比如视频动态图
+          var args = suffix[3] ? suffix[3] : ''
+          if(webp){
+            return suffix[1] + cut + '.webp' + args
+          }else{
+            return suffix[1] + cut + '.' + suffix[2] + args
+          }
+        }
+
+        function trimHttp(url){
+          return url ? url.replace(/^http:|^https:/, '') : ''
+        }
+        function detailImg(e,w,h){
+          var w = w||null
+          var h = h||null          
+          if(e.getAttribute('webpCheck')){
+            return
+          }
+          // let w = e.width;
+          // let h = e.height;
+          var imgStr = e.getAttribute('data-bg-img');
+          if(!imgStr){
+            return
+          }
+          var webpStr = formatImg(imgStr,w*DR,h*DR)
+          e.setAttribute('webpCheck','checked')
+          e.setAttribute('src',webpStr)
+          
+          e.onerror=null
+        }
+        //try
+
+        window.detailImg = detailImg
+
+
+        
+          window.articleIdList = []
+        
+        
+        window.original = {
+          rid:"0",
+          categories: JSON.parse('[{"id":2,"parent_id":0,"name":"动画","children":[{"id":4,"parent_id":2,"name":"动漫杂谈"},{"id":5,"parent_id":2,"name":"动漫资讯"},{"id":31,"parent_id":2,"name":"动画技术"}]},{"id":1,"parent_id":0,"name":"游戏","children":[{"id":6,"parent_id":1,"name":"单机游戏"},{"id":7,"parent_id":1,"name":"电子竞技"},{"id":8,"parent_id":1,"name":"手机游戏"},{"id":9,"parent_id":1,"name":"网络游戏"},{"id":10,"parent_id":1,"name":"桌游棋牌"}]},{"id":28,"parent_id":0,"name":"影视","children":[{"id":12,"parent_id":28,"name":"电影"},{"id":35,"parent_id":28,"name":"电视剧"},{"id":36,"parent_id":28,"name":"纪录片"},{"id":37,"parent_id":28,"name":"综艺"}]},{"id":3,"parent_id":0,"name":"生活","children":[{"id":13,"parent_id":3,"name":"美食"},{"id":21,"parent_id":3,"name":"萌宠"},{"id":14,"parent_id":3,"name":"时尚"},{"id":22,"parent_id":3,"name":"运动"},{"id":15,"parent_id":3,"name":"日常"}]},{"id":29,"parent_id":0,"name":"兴趣","children":[{"id":23,"parent_id":29,"name":"绘画"},{"id":24,"parent_id":29,"name":"手工"},{"id":38,"parent_id":29,"name":"摄影"},{"id":39,"parent_id":29,"name":"音乐舞蹈"},{"id":11,"parent_id":29,"name":"模型手办"}]},{"id":16,"parent_id":0,"name":"轻小说","children":[{"id":18,"parent_id":16,"name":"原创连载"},{"id":19,"parent_id":16,"name":"同人连载"},{"id":32,"parent_id":16,"name":"短篇小说"},{"id":20,"parent_id":16,"name":"小说杂谈"}]},{"id":17,"parent_id":0,"name":"科技","children":[{"id":25,"parent_id":17,"name":"人文历史"},{"id":33,"parent_id":17,"name":"自然"},{"id":26,"parent_id":17,"name":"数码"},{"id":27,"parent_id":17,"name":"汽车"},{"id":34,"parent_id":17,"name":"学习"}]},{"id":41,"parent_id":0,"name":"笔记","children":[{"id":42,"parent_id":41,"name":"全部笔记"}]}]')
+        }
+      })()
+
+    </script>
+      
+  <link href="//s1.hdslb.com/bfs/static/jinkela/article/list.01d66a1d8aacbae6c5e4bfdd492c51e00b5f1584.css" rel="stylesheet"/></head>
+  <body>
+    <div id="biliMainHeader" class="report-wrap-module" style="height: 56px;"></div>
+    <div class="tab-content">
+      <div class="nav-tab-bar">
+        <a href="//www.bilibili.com/read/home" target="_self" class="logo">
+        </a>
+        <a href="//www.bilibili.com/read/home" target="_self" class="tab-item on" data-tab-id="0">
+          <span>推荐</span>
+          
+            <div class="pointer"></div>
+          
+
+        </a>
+            
+          
+          <a href="//www.bilibili.com/read/douga" target="_self" class="tab-item  " data-tab-id="2">
+            <span>动画</span>
+          </a>
+          
+          <a href="//www.bilibili.com/read/game" target="_self" class="tab-item  " data-tab-id="1">
+            <span>游戏</span>
+          </a>
+          
+          <a href="//www.bilibili.com/read/cinephile" target="_self" class="tab-item  " data-tab-id="28">
+            <span>影视</span>
+          </a>
+          
+          <a href="//www.bilibili.com/read/life" target="_self" class="tab-item  " data-tab-id="3">
+            <span>生活</span>
+          </a>
+          
+          <a href="//www.bilibili.com/read/interest" target="_self" class="tab-item  " data-tab-id="29">
+            <span>兴趣</span>
+          </a>
+          
+          <a href="//www.bilibili.com/read/lightnovel" target="_self" class="tab-item  " data-tab-id="16">
+            <span>轻小说</span>
+          </a>
+          
+          <a href="//www.bilibili.com/read/technology" target="_self" class="tab-item  " data-tab-id="17">
+            <span>科技</span>
+          </a>
+          
+          <a href="//www.bilibili.com/read/note" target="_self" class="tab-item  " data-tab-id="41">
+            <span>笔记</span>
+          </a>
+          
+        
+      </div>
+      <div class="page-content">
+        <div class="left-side">
+          
+          <!-- <span>loading...</span> -->
+          
+          <div class="carousel">
+            <ul class="carousel-list">
+            
+              <li class="carousel-item" data-carousel-index="0">
+                <a href="https://www.bilibili.com/read/cv15828876?from=1001" target="_blank">
+                  <img src="//static.hdslb.com/images/transparent.gif" class="carousel-bg" data-bg-img="http://i0.hdslb.com/bfs/banner/d3f2ff7eb330beff8d27971aa9ff365b6c8502f9.png" onload="detailImg(this,680,212)" onerror="detailImg(this,680,212)">
+                </a>
+              </li>
+            
+              <li class="carousel-item" data-carousel-index="1">
+                <a href="https://www.bilibili.com/read/cv15560367?from=1001" target="_blank">
+                  <img src="//static.hdslb.com/images/transparent.gif" class="carousel-bg" data-bg-img="http://i0.hdslb.com/bfs/banner/db1cdf0ab77c84beaf767028312d2310fedc78fa.jpg" onload="detailImg(this,680,212)" onerror="detailImg(this,680,212)">
+                </a>
+              </li>
+            
+              <li class="carousel-item" data-carousel-index="2">
+                <a href="https://www.bilibili.com/read/cv15904994?from=1001" target="_blank">
+                  <img src="//static.hdslb.com/images/transparent.gif" class="carousel-bg" data-bg-img="http://i0.hdslb.com/bfs/feed-admin/88230847300d35e6eaa3bd2c86d373d4d7168cc5.jpg" onload="detailImg(this,680,212)" onerror="detailImg(this,680,212)">
+                </a>
+              </li>
+            
+              <li class="carousel-item" data-carousel-index="3">
+                <a href="https://www.bilibili.com/read/cv10976550" target="_blank">
+                  <img src="//static.hdslb.com/images/transparent.gif" class="carousel-bg" data-bg-img="http://i0.hdslb.com/bfs/feed-admin/e00efa8f111d5404e32f595da78f1c7d61c6eb9d.jpg" onload="detailImg(this,680,212)" onerror="detailImg(this,680,212)">
+                </a>
+              </li>
+            
+              <li class="carousel-item" data-carousel-index="4">
+                <a href="https://www.bilibili.com/blackboard/renzheng.html" target="_blank">
+                  <img src="//static.hdslb.com/images/transparent.gif" class="carousel-bg" data-bg-img="http://i0.hdslb.com/bfs/feed-admin/b87893dba13dfb6028f22ce934d1f874409dc766.jpg" onload="detailImg(this,680,212)" onerror="detailImg(this,680,212)">
+                </a>
+              </li>
+            
+            </ul>
+            <div class="titles">
+              
+                <a href="https://www.bilibili.com/read/cv15828876?from=1001" class=" on " data-title-index="0" target="_blank">我怀里的纸片人怎么可能是巨手怪？</a>
+              
+                <a href="https://www.bilibili.com/read/cv15560367?from=1001" class="" data-title-index="1" target="_blank">如假包换的开场即团灭</a>
+              
+                <a href="https://www.bilibili.com/read/cv15904994?from=1001" class="" data-title-index="2" target="_blank">跟你商量个事儿行吗，救个急，跟我结婚</a>
+              
+                <a href="https://www.bilibili.com/read/cv10976550" class="" data-title-index="3" target="_blank">抢先体验新功能啦！</a>
+              
+                <a href="https://www.bilibili.com/blackboard/renzheng.html" class="" data-title-index="4" target="_blank">专栏认证上线啦！</a>
+              
+            </div>
+            <ul class="indicator">
+              
+              <li class="indicator-btn-holder">
+                <div class="indicator-btn  on " data-indicator-index="0"></div>
+              </li>
+              
+              <li class="indicator-btn-holder">
+                <div class="indicator-btn " data-indicator-index="1"></div>
+              </li>
+              
+              <li class="indicator-btn-holder">
+                <div class="indicator-btn " data-indicator-index="2"></div>
+              </li>
+              
+              <li class="indicator-btn-holder">
+                <div class="indicator-btn " data-indicator-index="3"></div>
+              </li>
+              
+              <li class="indicator-btn-holder">
+                <div class="indicator-btn " data-indicator-index="4"></div>
+              </li>
+              
+            </ul>
+          </div>
+
+          
+          
+          <div class="partitio-name">
+            
+              <label>推荐文章</label>              
+            
+          </div>
+
+          <div class="article-list">
+            <div class="article-list-holder">
+              
+            </div>
+
+            <div class="tips-holder">
+              loading...
+            </div>
+          </div>
+
+
+        </div>
+        <div class="right-side">
+          <div class="search-module">
+            <div class="search-block">
+              <input placeholder="搜索专栏文章">
+              <div class="search-icon"></div>
+              <ul class="search-word-panel">
+                <li class="panel-title">
+                  <div class="split-line"></div>
+                  <p>
+                    <span></span>
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="rank-module">
+            <div class="rank-tabs-bar">
+              <label>排行榜</label>
+              <ul class="rank-tabs-list">
+              </ul>
+            </div>  
+            <ul class="rank-list">
+              
+              
+                
+                  
+                  
+                  <li class="item">
+                    <span class="rank-index">1</span><a href="//www.bilibili.com/read/cv16151189/" target="_blank" title="TheShy入驻B站啦！新人UP主姜承禄前来报道！">TheShy入驻B站啦！新人UP主姜承禄前来报道！</a>
+                  </li>
+                
+                  
+                  
+                  <li class="item">
+                    <span class="rank-index">2</span><a href="//www.bilibili.com/read/cv16149994/" target="_blank" title="魔导国东征记－「废墟公会」（467～470）四更！•OVERLORD">魔导国东征记－「废墟公会」（467～470）四更！•OVERLORD</a>
+                  </li>
+                
+                  
+                  
+                  <li class="item">
+                    <span class="rank-index">3</span><a href="//www.bilibili.com/read/cv13321628/" target="_blank" title="周恩来在文艺工作座谈会和故事片创作会议上的讲话（一九六一年六月十九日）">周恩来在文艺工作座谈会和故事片创作会议上的讲话（一九六一年六月十九日）</a>
+                  </li>
+                
+                  
+                  
+                  <li class="item">
+                    <span class="rank-index">4</span><a href="//www.bilibili.com/read/cv16137258/" target="_blank" title="疫情下的一些物资储备建议">疫情下的一些物资储备建议</a>
+                  </li>
+                
+                  
+                  
+                  <li class="item">
+                    <span class="rank-index">5</span><a href="//www.bilibili.com/read/cv16151560/" target="_blank" title="再次血洗互联网的藤本树，不再靠黄暴和坏女人征服读者了？">再次血洗互联网的藤本树，不再靠黄暴和坏女人征服读者了？</a>
+                  </li>
+                
+                  
+                  
+                  <li class="item">
+                    <span class="rank-index">6</span><a href="//www.bilibili.com/read/cv16136926/" target="_blank" title="在乡书记的陪伴下去找绘画用的墙壁了，给大家看下新昌美丽的农村。">在乡书记的陪伴下去找绘画用的墙壁了，给大家看下新昌美丽的农村。</a>
+                  </li>
+                
+                  
+                  
+                  <li class="item">
+                    <span class="rank-index">7</span><a href="//www.bilibili.com/read/cv16140048/" target="_blank" title="【公主连结】新地区34图17-3装备介绍、N3以及4月刷取推荐 一图流">【公主连结】新地区34图17-3装备介绍、N3以及4月刷取推荐 一图流</a>
+                  </li>
+                
+                  
+                  
+                  <li class="item">
+                    <span class="rank-index">8</span><a href="//www.bilibili.com/read/cv15828876/" target="_blank" title="你的纸片人老婆其实都是“歪嘴战神”">你的纸片人老婆其实都是“歪嘴战神”</a>
+                  </li>
+                
+                  
+                  
+                  <li class="item">
+                    <span class="rank-index">9</span><a href="//www.bilibili.com/read/cv16133412/" target="_blank" title="魔导国东征记－胜利宣言！（463～466）四更！•OVERLORD">魔导国东征记－胜利宣言！（463～466）四更！•OVERLORD</a>
+                  </li>
+                
+                  
+                  
+                  <li class="item">
+                    <span class="rank-index">10</span><a href="//www.bilibili.com/read/cv16153779/" target="_blank" title="【萌新榜60】萌新入坑啦！永夜幻光复刻，英仙座、豪来临！一二期速成重做">【萌新榜60】萌新入坑啦！永夜幻光复刻，英仙座、豪来临！一二期速成重做</a>
+                  </li>
+                
+                  
+            </ul>
+            <a class="complete-rank" target="_blank">查看完整榜单</a>
+          </div>
+          
+          <div class="up-list">
+            <div class="title">最新投稿的UP主
+              <div class="fresh-btn"></div>
+            </div>
+          </div>
+          
+          <!--<div class="web-show-c">
+            
+          </div>-->
+          <div class="more">
+            <div class="top-bar">
+              <label>更多</label>
+            </div>
+            <a class="ac-link" href="//www.bilibili.com/read/apply/" target="_blank">
+              <div class="link">
+                <span class="icon">
+                </span>
+                <p class="title">成为创作者</p>
+                <p class="info">申请成为专栏UP主</p>
+              </div>
+            </a>
+            <a href="//www.bilibili.com/blackboard/help.html#%E4%B8%93%E6%A0%8F%E7%9B%B8%E5%85%B3" target="_blank">
+              <div class="help">
+                <span class="icon">
+                </span>
+                <p class="title">专栏帮助</p>
+                <p class="info">查看专栏使用说明</p>
+              </div>
+            </a>
+          </div>
+            
+        </div>
+        
+      </div>
+    </div>
+    <div class="to-top">
+        
+    </div>
+  <script src="//static.hdslb.com/js/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" charset="utf-8" src="//s1.hdslb.com/bfs/seed/jinkela/header-v2/header.js"></script>
+  <script>
+    window.reportMsgObj = {}
+    window.reportConfig = {
+      sample: 1,
+      errorTracker: false,
+      resourceTracker: false,
+      scrollTracker: false,
+      msgObjects: 'reportMsgObj'
+    }
+  </script>
+  <script type="text/javascript" src="//s1.hdslb.com/bfs/seed/log/report/log-reporter.js" crossorigin></script>
+<script type="text/javascript" src="//s1.hdslb.com/bfs/static/jinkela/article/manifest.01d66a1d8aacbae6c5e4bfdd492c51e00b5f1584.js"></script><script type="text/javascript" src="//s1.hdslb.com/bfs/static/jinkela/article/vendor.01d66a1d8aacbae6c5e4bfdd492c51e00b5f1584.js"></script><script type="text/javascript" src="//s1.hdslb.com/bfs/static/jinkela/article/list.01d66a1d8aacbae6c5e4bfdd492c51e00b5f1584.js"></script></body>
+</html>
