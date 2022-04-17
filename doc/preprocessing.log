@@ -1,0 +1,431 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12.10) (preloaded format=pdflatex 2022.3.29)  30 MAR 2022 15:04
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**/home/chan/workspace/searchEng/doc/preprocessing.tex
+(/home/chan/workspace/searchEng/doc/preprocessing.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2021-11-22>
+(/home/chan/.miktex/texmfs/install/tex/latex/base/article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(/home/chan/.miktex/texmfs/install/tex/latex/base/size10.clo
+File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count183
+\c@section=\count184
+\c@subsection=\count185
+\c@subsubsection=\count186
+\c@paragraph=\count187
+\c@subparagraph=\count188
+\c@figure=\count189
+\c@table=\count190
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(/home/chan/.miktex/texmfs/install/tex/latex/cjk/CJKutf8.sty
+Package: CJKutf8 2021/10/16 4.8.5
+
+(/home/chan/.miktex/texmfs/install/tex/generic/iftex/ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+
+(/home/chan/.miktex/texmfs/install/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+(/home/chan/.miktex/texmfs/install/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+)
+(/home/chan/.miktex/texmfs/install/tex/latex/cjk/CJK.sty
+Package: CJK 2021/10/16 4.8.5
+
+(/home/chan/.miktex/texmfs/install/tex/latex/cjk/mule/MULEenc.sty
+Package: MULEenc 2021/10/16 4.8.5
+)
+(/home/chan/.miktex/texmfs/install/tex/latex/cjk/CJK.enc
+File: CJK.enc 2021/10/16 4.8.5
+Now handling font encoding C00 ...
+... no UTF-8 mapping file for font encoding C00
+Now handling font encoding C05 ...
+... no UTF-8 mapping file for font encoding C05
+Now handling font encoding C09 ...
+... no UTF-8 mapping file for font encoding C09
+Now handling font encoding C10 ...
+... no UTF-8 mapping file for font encoding C10
+Now handling font encoding C20 ...
+... no UTF-8 mapping file for font encoding C20
+Now handling font encoding C19 ...
+... no UTF-8 mapping file for font encoding C19
+Now handling font encoding C40 ...
+... no UTF-8 mapping file for font encoding C40
+Now handling font encoding C42 ...
+... no UTF-8 mapping file for font encoding C42
+Now handling font encoding C43 ...
+... no UTF-8 mapping file for font encoding C43
+Now handling font encoding C50 ...
+... no UTF-8 mapping file for font encoding C50
+Now handling font encoding C52 ...
+... no UTF-8 mapping file for font encoding C52
+Now handling font encoding C49 ...
+... no UTF-8 mapping file for font encoding C49
+Now handling font encoding C60 ...
+... no UTF-8 mapping file for font encoding C60
+Now handling font encoding C61 ...
+... no UTF-8 mapping file for font encoding C61
+Now handling font encoding C63 ...
+... no UTF-8 mapping file for font encoding C63
+Now handling font encoding C64 ...
+... no UTF-8 mapping file for font encoding C64
+Now handling font encoding C65 ...
+... no UTF-8 mapping file for font encoding C65
+Now handling font encoding C70 ...
+... no UTF-8 mapping file for font encoding C70
+Now handling font encoding C31 ...
+... no UTF-8 mapping file for font encoding C31
+Now handling font encoding C32 ...
+... no UTF-8 mapping file for font encoding C32
+Now handling font encoding C33 ...
+... no UTF-8 mapping file for font encoding C33
+Now handling font encoding C34 ...
+... no UTF-8 mapping file for font encoding C34
+Now handling font encoding C35 ...
+... no UTF-8 mapping file for font encoding C35
+Now handling font encoding C36 ...
+... no UTF-8 mapping file for font encoding C36
+Now handling font encoding C37 ...
+... no UTF-8 mapping file for font encoding C37
+Now handling font encoding C80 ...
+... no UTF-8 mapping file for font encoding C80
+Now handling font encoding C81 ...
+... no UTF-8 mapping file for font encoding C81
+Now handling font encoding C01 ...
+... no UTF-8 mapping file for font encoding C01
+Now handling font encoding C11 ...
+... no UTF-8 mapping file for font encoding C11
+Now handling font encoding C21 ...
+... no UTF-8 mapping file for font encoding C21
+Now handling font encoding C41 ...
+... no UTF-8 mapping file for font encoding C41
+Now handling font encoding C62 ...
+... no UTF-8 mapping file for font encoding C62
+)
+\CJK@indent=\box50
+)
+(/home/chan/.miktex/texmfs/install/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+))
+(/home/chan/.miktex/texmfs/install/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/home/chan/.miktex/texmfs/install/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+)
+(/home/chan/.miktex/texmfs/install/tex/latex/graphics/graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(/home/chan/.miktex/texmfs/install/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/home/chan/.miktex/texmfs/install/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(/home/chan/.miktex/texmfs/install/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen139
+\Gin@req@width=\dimen140
+)
+(/home/chan/.miktex/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-12-14 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count191
+\l__pdf_internal_box=\box51
+)
+No file preprocessing.aux.
+\openout1 = `preprocessing.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+(/home/chan/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count192
+\scratchdimen=\dimen141
+\scratchbox=\box52
+\nofMPsegments=\count193
+\nofMParguments=\count194
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count195
+\MPscratchDim=\dimen142
+\MPnumerator=\count196
+\makeMPintoPDFobject=\count197
+\everyMPtoPDFconversion=\toks20
+) (/home/chan/.miktex/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/home/chan/.miktex/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+(/home/chan/.miktex/texmfs/install/tex/latex/cjk/UTF8/UTF8.bdg
+File: UTF8.bdg 2021/10/16 4.8.5
+)
+(/home/chan/.miktex/texmfs/install/tex/latex/cjk/UTF8/UTF8.enc
+File: UTF8.enc 2021/10/16 4.8.5
+)
+(/home/chan/.miktex/texmfs/install/tex/latex/cjk/UTF8/UTF8.chr
+File: UTF8.chr 2021/10/16 4.8.5
+)
+No file preprocessing.toc.
+\tf@toc=\write3
+\openout3 = `preprocessing.toc'.
+
+[1
+
+{/home/chan/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}]
+LaTeX Font Info:    Trying to load font information for C70+gbsn on input line 
+10.
+
+(/home/chan/.miktex/texmfs/install/tex/latex/cjk/UTF8/c70gbsn.fd
+File: c70gbsn.fd 2021/10/16 4.8.5
+)
+(/home/chan/.miktex/texmfs/install/tex/latex/cjk/UTF8/c70gbsn.fdx
+File: c70gbsn.fdx 2021/10/16 4.8.5
+)
+<../imgs//info_retrieval1.drawio.png, id=63, 755.82375pt x 391.4625pt>
+File: ../imgs//info_retrieval1.drawio.png Graphic file (type png)
+<use ../imgs//info_retrieval1.drawio.png>
+Package pdftex.def Info: ../imgs//info_retrieval1.drawio.png  used on input lin
+e 18.
+(pdftex.def)             Requested size: 384.55391pt x 199.16928pt.
+
+Overfull \hbox (39.55391pt too wide) in paragraph at lines 18--19
+ [][] 
+ []
+
+<../imgs//threading_model.drawio.png, id=67, 644.4075pt x 590.205pt>
+File: ../imgs//threading_model.drawio.png Graphic file (type png)
+<use ../imgs//threading_model.drawio.png>
+Package pdftex.def Info: ../imgs//threading_model.drawio.png  used on input lin
+e 26.
+(pdftex.def)             Requested size: 310.65918pt x 284.52756pt.
+
+LaTeX Warning: Citation `crawler' on page 2 undefined on input line 32.
+
+[2 </home/chan/workspace/searchEng/imgs/info_retrieval1.drawio.png>]
+<../imgs//WebCrawlerArchitecture.svg.png, id=140, 220.825pt x 168.63pt>
+File: ../imgs//WebCrawlerArchitecture.svg.png Graphic file (type png)
+<use ../imgs//WebCrawlerArchitecture.svg.png>
+Package pdftex.def Info: ../imgs//WebCrawlerArchitecture.svg.png  used on input
+ line 36.
+(pdftex.def)             Requested size: 220.82445pt x 168.62958pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[3 </home/chan/workspace/searchEng/imgs/threading_model.drawio.png>]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.40 ...π‰∏Ä‰∏™Ê∂àÊÅØÂ§ÑÁêÜÂÆåÊØïÂêéÔºåË∞ÉÁî®task_
+                                                  doneÊñπÊ≥ïËøõË°åËµÑÊ∫êÈáäÊ...
+
+? 
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 40.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 40.
+! Missing $ inserted.
+<inserted text> 
+                $
+l.41 
+     
+? 
+Missing character: There is no π in font cmr10!
+Missing character: There is no ’ in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ê in font cmr10!
+Missing character: There is no   in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no › in font cmr10!
+Missing character: There is no ¡ in font cmr10!
+Missing character: There is no ø in font cmr10!
+Missing character: There is no â in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+[]\C70/gbsn/m/n/10/7f Q \C70/gbsn/m/n/10/7e ‹ \C70/gbsn/m/n/10/72 , \C70/gbsn/m
+/n/10/86 k\OT1/cmr/m/n/10 . (2022). In \C70/gbsn/m/n/10/7e Ù \C70/gbsn/m/n/10/5
+7 ˙ \C70/gbsn/m/n/10/76 ~ \C70/gbsn/m/n/10/79 — \C70/gbsn/m/n/10/ff  \C70/gbsn
+/m/n/10/81 Í \C70/gbsn/m/n/10/75 1 \C70/gbsn/m/n/10/76 Ñ ~ \C70/gbsn/m/n/10/79 
+— \C70/gbsn/m/n/10/51 h \C70/gbsn/bx/n/10/4e f\OT1/cmr/m/n/10 .
+ []
+
+[4 </home/chan/workspace/searchEng/imgs/WebCrawlerArchitecture.svg.png>]
+(preprocessing.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 3752 strings out of 480594
+ 53289 string characters out of 2897747
+ 352444 words of memory out of 3000000
+ 21416 multiletter control sequences out of 15000+600000
+ 429783 words of font info for 122 fonts, out of 8000000 for 9000
+ 0 hyphenation exceptions out of 8191
+ 56i,6n,62p,1198b,1108s stack positions out of 5000i,500n,10000p,200000b,80000s
+</home/chan/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
+</home/chan/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></
+home/chan/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></ho
+me/chan/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi7.pfb></home/
+chan/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></home/cha
+n/.miktex/texmfs/install/fonts/type1/arphic/gbsnu/gbsnu30.pfb></home/chan/.mikt
+ex/texmfs/install/fonts/type1/arphic/gbsnu/gbsnu4e.pfb></home/chan/.miktex/texm
+fs/install/fonts/type1/arphic/gbsnu/gbsnu4f.pfb></home/chan/.miktex/texmfs/inst
+all/fonts/type1/arphic/gbsnu/gbsnu50.pfb></home/chan/.miktex/texmfs/install/fon
+ts/type1/arphic/gbsnu/gbsnu51.pfb></home/chan/.miktex/texmfs/install/fonts/type
+1/arphic/gbsnu/gbsnu52.pfb></home/chan/.miktex/texmfs/install/fonts/type1/arphi
+c/gbsnu/gbsnu53.pfb></home/chan/.miktex/texmfs/install/fonts/type1/arphic/gbsnu
+/gbsnu54.pfb></home/chan/.miktex/texmfs/install/fonts/type1/arphic/gbsnu/gbsnu5
+6.pfb></home/chan/.miktex/texmfs/install/fonts/type1/arphic/gbsnu/gbsnu57.pfb><
+/home/chan/.miktex/texmfs/install/fonts/type1/arphic/gbsnu/gbsnu59.pfb></home/c
+han/.miktex/texmfs/install/fonts/type1/arphic/gbsnu/gbsnu5b.pfb></home/chan/.mi
+ktex/texmfs/install/fonts/type1/arphic/gbsnu/gbsnu5c.pfb></home/chan/.miktex/te
+xmfs/install/fonts/type1/arphic/gbsnu/gbsnu5d.pfb></home/chan/.miktex/texmfs/in
+stall/fonts/type1/arphic/gbsnu/gbsnu5e.pfb></home/chan/.miktex/texmfs/install/f
+onts/type1/arphic/gbsnu/gbsnu5f.pfb></home/chan/.miktex/texmfs/install/fonts/ty
+pe1/arphic/gbsnu/gbsnu60.pfb></home/chan/.miktex/texmfs/install/fonts/type1/arp
+hic/gbsnu/gbsnu61.pfb></home/chan/.miktex/texmfs/install/fonts/type1/arphic/gbs
+nu/gbsnu62.pfb></home/chan/.miktex/texmfs/install/fonts/type1/arphic/gbsnu/gbsn
+u63.pfb></home/chan/.miktex/texmfs/install/fonts/type1/arphic/gbsnu/gbsnu64.pfb
+></home/chan/.miktex/texmfs/install/fonts/type1/arphic/gbsnu/gbsnu65.pfb></home
+/chan/.miktex/texmfs/install/fonts/type1/arphic/gbsnu/gbsnu66.pfb></home/chan/.
+miktex/texmfs/install/fonts/type1/arphic/gbsnu/gbsnu67.pfb></home/chan/.miktex/
+texmfs/install/fonts/type1/arphic/gbsnu/gbsnu68.pfb></home/chan/.miktex/texmfs/
+install/fonts/type1/arphic/gbsnu/gbsnu6a.pfb></home/chan/.miktex/texmfs/install
+/fonts/type1/arphic/gbsnu/gbsnu6b.pfb></home/chan/.miktex/texmfs/install/fonts/
+type1/arphic/gbsnu/gbsnu6c.pfb></home/chan/.miktex/texmfs/install/fonts/type1/a
+rphic/gbsnu/gbsnu6d.pfb></home/chan/.miktex/texmfs/install/fonts/type1/arphic/g
+bsnu/gbsnu6e.pfb></home/chan/.miktex/texmfs/install/fonts/type1/arphic/gbsnu/gb
+snu70.pfb></home/chan/.miktex/texmfs/install/fonts/type1/arphic/gbsnu/gbsnu72.p
+fb></home/chan/.miktex/texmfs/install/fonts/type1/arphic/gbsnu/gbsnu73.pfb></ho
+me/chan/.miktex/texmfs/install/fonts/type1/arphic/gbsnu/gbsnu74.pfb></home/chan
+/.miktex/texmfs/install/fonts/type1/arphic/gbsnu/gbsnu75.pfb></home/chan/.mikte
+x/texmfs/install/fonts/type1/arphic/gbsnu/gbsnu76.pfb></home/chan/.miktex/texmf
+s/install/fonts/type1/arphic/gbsnu/gbsnu77.pfb></home/chan/.miktex/texmfs/insta
+ll/fonts/type1/arphic/gbsnu/gbsnu78.pfb></home/chan/.miktex/texmfs/install/font
+s/type1/arphic/gbsnu/gbsnu79.pfb></home/chan/.miktex/texmfs/install/fonts/type1
+/arphic/gbsnu/gbsnu7a.pfb></home/chan/.miktex/texmfs/install/fonts/type1/arphic
+/gbsnu/gbsnu7b.pfb></home/chan/.miktex/texmfs/install/fonts/type1/arphic/gbsnu/
+gbsnu7c.pfb></home/chan/.miktex/texmfs/install/fonts/type1/arphic/gbsnu/gbsnu7d
+.pfb></home/chan/.miktex/texmfs/install/fonts/type1/arphic/gbsnu/gbsnu7e.pfb></
+home/chan/.miktex/texmfs/install/fonts/type1/arphic/gbsnu/gbsnu7f.pfb></home/ch
+an/.miktex/texmfs/install/fonts/type1/arphic/gbsnu/gbsnu80.pfb></home/chan/.mik
+tex/texmfs/install/fonts/type1/arphic/gbsnu/gbsnu81.pfb></home/chan/.miktex/tex
+mfs/install/fonts/type1/arphic/gbsnu/gbsnu82.pfb></home/chan/.miktex/texmfs/ins
+tall/fonts/type1/arphic/gbsnu/gbsnu86.pfb></home/chan/.miktex/texmfs/install/fo
+nts/type1/arphic/gbsnu/gbsnu87.pfb></home/chan/.miktex/texmfs/install/fonts/typ
+e1/arphic/gbsnu/gbsnu88.pfb></home/chan/.miktex/texmfs/install/fonts/type1/arph
+ic/gbsnu/gbsnu89.pfb></home/chan/.miktex/texmfs/install/fonts/type1/arphic/gbsn
+u/gbsnu8a.pfb></home/chan/.miktex/texmfs/install/fonts/type1/arphic/gbsnu/gbsnu
+8b.pfb></home/chan/.miktex/texmfs/install/fonts/type1/arphic/gbsnu/gbsnu8c.pfb>
+</home/chan/.miktex/texmfs/install/fonts/type1/arphic/gbsnu/gbsnu8d.pfb></home/
+chan/.miktex/texmfs/install/fonts/type1/arphic/gbsnu/gbsnu8e.pfb></home/chan/.m
+iktex/texmfs/install/fonts/type1/arphic/gbsnu/gbsnu8f.pfb></home/chan/.miktex/t
+exmfs/install/fonts/type1/arphic/gbsnu/gbsnu90.pfb></home/chan/.miktex/texmfs/i
+nstall/fonts/type1/arphic/gbsnu/gbsnu91.pfb></home/chan/.miktex/texmfs/install/
+fonts/type1/arphic/gbsnu/gbsnu94.pfb></home/chan/.miktex/texmfs/install/fonts/t
+ype1/arphic/gbsnu/gbsnu95.pfb></home/chan/.miktex/texmfs/install/fonts/type1/ar
+phic/gbsnu/gbsnu96.pfb></home/chan/.miktex/texmfs/install/fonts/type1/arphic/gb
+snu/gbsnu97.pfb></home/chan/.miktex/texmfs/install/fonts/type1/arphic/gbsnu/gbs
+nu98.pfb></home/chan/.miktex/texmfs/install/fonts/type1/arphic/gbsnu/gbsnu9a.pf
+b></home/chan/.miktex/texmfs/install/fonts/type1/arphic/gbsnu/gbsnu9e.pfb></hom
+e/chan/.miktex/texmfs/install/fonts/type1/arphic/gbsnu/gbsnuff.pfb>
+Output written on preprocessing.pdf (4 pages, 508395 bytes).
+PDF statistics:
+ 455 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 288 words of extra memory for PDF output out of 10000 (max. 10000000)
+
